@@ -7,7 +7,7 @@ int calcula(int a, int n){
     double calc = calcula(a,n/2);
     res = calc*calc;
     if(n%2==1){
-        res = a*calc;
+        res = a*res;
     }
     return res;
     
